@@ -22,7 +22,7 @@ class Actor(nn.Module):
             action_size (int) : Dimension of each action
             seed (int): Random seed
             fc1_units (int): Number of nodes in the first hidden layer
-            fc2_units (int): Number of nodes in the second hidden lalyer
+            fc2_units (int): Number of nodes in the second hidden layer
         """
         super(Actor, self).__init__()
         self.seed = torch.manual_seed(seed)
